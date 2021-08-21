@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="div1" id="welcome">
+        <h3> Welcome to Flappy Bird Game</h3>
+        <p id="rule"> <strong>Game Instructions </strong> </p>
+        <p> <strong>Instruction 1</strong> :- &nbsp; Press &#8595; and &#8593; Arrows key to move the bird. </p>
+        <p> <strong>Instruction 2</strong> :- &nbsp; Avoid all the Poles and keep moving Further. </p>
+        <p> <strong>Instruction 3</strong> :- &nbsp; Game will be Over if the bird gets collided with the Pole.</p>
+        <img src="images/game.jpg" alt="Game Pic">
+        <button onclick="start()" id="playgame"> Play Game</button>
+    </div>
+
+    <div class="div2">
+        <canvas id="canvas" width="500" height="512"></canvas>
+    </div>
+
+    <div class="div3" id="over">
+        <h3> Welcome to Flappy Bird Game</h3>
+        <p id="rule"> <strong>OOPS!! GAME OVER </strong> </p>
+        <p id="scor"> Your Score is :- &nbsp; <strong id="scr"> x</strong> </p>
+        <img src="images/game.jpg" alt="Game Pic">
+        <button id="red"> Redirecting you in 3.....2.....1 seconds to Welcome Page.</button>
+    </div>
+
+    <script src="flappyBird.js"></script>
+</body>
+
+</html>
