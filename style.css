@@ -1,0 +1,98 @@
+* {
+    background-color: #333;
+}
+
+#welcome,
+#over,
+h3,
+p,
+strong {
+    background: #ccc;
+}
+
+#welcome {
+    width: 60%;
+    height: 80%;
+    font-size: 1.2em;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p {
+    padding: 0px 20px;
+    margin-top: 0px;
+}
+
+#rule {
+    text-align: center;
+}
+
+img {
+    position: absolute;
+    left: 35%;
+    top: 45%;
+}
+
+#playgame {
+    font-size: 1.2em;
+}
+
+#playagain {
+    font-size: 1.1em;
+}
+
+#playgame,
+#playagain {
+    position: absolute;
+    background-color: rgb(47, 199, 47);
+    top: 85%;
+    left: 45%;
+    width: 15%;
+    height: 10%;
+}
+
+#canvas {
+    display: none;
+    position: absolute;
+    width: 50%;
+    height: 500px;
+    left: 25%;
+    top: 10%;
+}
+
+#over {
+    display: none;
+    width: 60%;
+    height: 80%;
+    font-size: 1.4em;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    padding: 5px;
+}
+
+#red {
+    position: absolute;
+    left: 10%;
+    font-size: 1em;
+    background-color: rgb(66, 127, 240);
+    height: 10%;
+    width: 80%;
+    top: 80%;
+}
+
+#over img {
+    position: absolute;
+    top: 40%;
+}
+
+#scor {
+    text-align: center;
+    font-size: 1.3em;
+}
