@@ -77,13 +77,18 @@ img {
     padding: 5px;
 }
 
-#red {
+a:link,
+a:visited {
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 0 0 0;
     position: absolute;
-    left: 10%;
-    font-size: 1em;
-    background-color: rgb(66, 127, 240);
+    left: 40%;
+    font-size: 1.5em;
+    color: black;
+    background-color: rgb(47, 199, 47);
     height: 10%;
-    width: 80%;
+    width: 20%;
     top: 80%;
 }
 
