@@ -77,14 +77,12 @@ img {
     padding: 5px;
 }
 
-a:link,
-a:visited {
+#red {
+    border: 2px solid black;
     text-align: center;
-    text-decoration: none;
-    padding: 15px 0 0 0;
     position: absolute;
     left: 40%;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: black;
     background-color: rgb(47, 199, 47);
     height: 10%;
